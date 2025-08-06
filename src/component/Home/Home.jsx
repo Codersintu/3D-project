@@ -28,8 +28,8 @@ const awardVariants = {
 function Home() {
   return (
     // parent container
-     <div className="w-full max-w-[1200px] h-screen overflow-hidden">
-      <div className="w-full max-w-[1200px] h-screen flex justify-between">
+<div className="w-full max-w-[1200px] h-screen overflow-hidden mx-10">
+    <div className="w-full max-w-[1200px] h-screen flex justify-between">
       {/* left container */}
      <div className="flex flex-col my-[70px] md:my-0 gap-15 items-center mx-auto md:items-start md:mx-0 md:justify-around ">
       {/* title */}
@@ -68,6 +68,8 @@ function Home() {
           </svg>
         </motion.a>
      </div>
+
+
      {/* right side container */}
      <div className="md:flex md:flex-col md:justify-between md:items-center">
         <div className="md:bg-indigo-800 hidden md:flex md:flex-col md:justify-between md:rounded md:items-center md:gap-7 md:h-[150px] md:w-full md:max-w-[30px]">
@@ -226,8 +228,8 @@ function Home() {
         <img className="w-full md:max-w-[600px] md:h-[600px] max-w-[400px] h-[400px]" src={newimg} alt="" />
       </div>
      </div>
-    </div>
-    </div>
+  </div>
+</div>
   )
 }
 
