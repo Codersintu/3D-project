@@ -8,6 +8,9 @@ import newimg from "../../assets/hero.png"
 import Yimg from "../../assets/y.png"
 import {motion} from "motion/react"
 import { TypeAnimation } from "react-type-animation"
+import { Canvas } from "@react-three/fiber"
+import { Suspense } from "react"
+import Sphare from "./Sphare"
 
 
 const awardVariants = {
@@ -224,9 +227,14 @@ function Home() {
 
      </div>
      <div className="absolute w-full max-w-[1000px] h-screen -z-10 flex justify-center items-end">
-      <div className="">
-        <img className="w-full md:max-w-[600px] md:h-[600px] max-w-[400px] h-[400px]" src={newimg} alt="" />
-      </div>
+      <div className=" relative w-full max-w-[1000px] h-screen flex justify-center items-end">
+       <Canvas className="hidden md:block">
+          <Suspense fallback="loading...">
+            <Sphare />
+          </Suspense>
+        </Canvas>
+         <img className="w-full absolute md:max-w-[600px] md:h-[600px] max-w-[400px] h-[400px]" src={newimg} alt="" />
+        </div>
      </div>
   </div>
 </div>
