@@ -73,8 +73,8 @@ function Home() {
         <div className="md:bg-indigo-800 hidden md:flex md:flex-col md:justify-between md:rounded md:items-center md:gap-7 md:h-[150px] md:w-full md:max-w-[30px]">
             
             <motion.div variants={awardVariants} initial="initial" animate="animate" className="flex flex-col gap-3.5">
-              <motion.a variants={awardVariants} href=""><img className="w-full max-w-[20px] bg-white rounded" src={ximg} alt="" /></motion.a>
-             <motion.a variants={awardVariants} href=""><img className="w-full max-w-[20px] bg-white rounded" src={gitimg} alt="" /></motion.a>
+              <motion.a variants={awardVariants} href="https://x.com/mahto_sint35616"><img className="w-full max-w-[20px] bg-white rounded" src={ximg} alt="" /></motion.a>
+             <motion.a variants={awardVariants} href="https://github.com/Codersintu"><img className="w-full max-w-[20px] bg-white rounded" src={gitimg} alt="" /></motion.a>
               <motion.a variants={awardVariants} href=""><img className="w-full max-w-[20px] bg-white rounded" src={Yimg} alt="" /></motion.a>
             </motion.div>
             <motion.p variants={awardVariants}  initial="initial" animate="animate" className="transform rotate-90 font-semibold bg-red-600 rounded w-[80px]">follow me</motion.p>
@@ -85,10 +85,16 @@ function Home() {
   <motion.div variants={awardVariants} className="bg-white w-[85%] h-[60px] text-gray-800 rounded-t-[10px]">
     <TypeAnimation 
       sequence={[
-        'i am creating fast and scalble website',
-        1000,
-        'i am developer and blockchain',
-        1000,
+          "I am creating fast and scalable websites",
+  1000,
+  "I am a full stack developer",
+  1000,
+  "I build secure blockchain applications",
+  1000,
+  "I deploy projects using DevOps tools",
+  1000,
+  "I love solving real-world problems with code",
+  1000,
         
       ]}
       wrapper="span"
@@ -132,7 +138,7 @@ function Home() {
                 <textPath href="#innerCirclePath" className="text-xl font-semibold">Hire now .</textPath>
               </text>
               <text className="">
-                <textPath href="#innerCirclePath" className="text-xl font-semibold" startOffset="44%">Context me .</textPath>
+                <textPath href="#innerCirclePath" className="text-xl font-semibold" startOffset="44%">Contact me .</textPath>
               </text>
               </svg>
 
