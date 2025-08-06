@@ -5,7 +5,7 @@ import ximg from "../../assets/x.png"
 import gitimg from "../../assets/Git.gif"
 import iimg from "../../assets/i.jpg"
 import newimg from "../../assets/hero.png"
-import Yimg from "../../assets/Y.png"
+import Yimg from "../../assets/y.png"
 import {motion} from "motion/react"
 import { TypeAnimation } from "react-type-animation"
 
