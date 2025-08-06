@@ -228,7 +228,7 @@ function Home() {
      </div>
      <div className="absolute w-full max-w-[1000px] h-screen -z-10 flex justify-center items-end">
       <div className=" relative w-full max-w-[1000px] h-screen flex justify-center items-end">
-       <Canvas className="hidden md:block">
+       <Canvas>
           <Suspense fallback="loading...">
             <Sphare />
           </Suspense>
