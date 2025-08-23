@@ -5,10 +5,10 @@
   box-sizing: border-box;
 } */
 
-/* html {
+html {
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
-} */
+}
 
 body {
   background: linear-gradient(to bottom, #12071f, #2f204e);
@@ -17,7 +17,7 @@ body {
   Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   /* min-height: 100vh; */
   overflow-x: hidden;
-  overflow-y: hidden;
+  
 }
 
 /* a {

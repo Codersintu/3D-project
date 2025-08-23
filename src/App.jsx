@@ -1,13 +1,15 @@
 
 import './App.css'
 import Home from './component/Home/Home'
+import Service from './component/Service/Service'
 
 function App() {
 
   return (
-    <div className="flex justify-center items-center">
+   <>
     <Home/>
-    </div>
+    <Service/>
+   </>
   )
 }
 

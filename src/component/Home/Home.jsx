@@ -31,7 +31,8 @@ const awardVariants = {
 function Home() {
   return (
     // parent container
-<div className="w-full max-w-[1200px] h-screen overflow-hidden mx-10">
+     <div className="flex flex-col justify-center items-center">
+<div className="w-full max-w-[1200px] h-[100vh] overflow-hidden mx-10">
     <div className="w-full max-w-[1200px] h-screen flex justify-between">
       {/* left container */}
      <div className="flex flex-col my-[70px] md:my-0 gap-15 items-center mx-auto md:items-start md:mx-0 md:justify-around ">
@@ -237,6 +238,7 @@ function Home() {
         </div>
      </div>
   </div>
+</div>
 </div>
   )
 }
